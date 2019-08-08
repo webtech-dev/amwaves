@@ -684,7 +684,7 @@ ul.tabs-nav .tab-nav.active {
 .appointment-box,
 .contact-info {
     position: relative;
-    padding: 32px;
+    padding: 14px;
     border-radius: 20px;
     border: 2px solid #dde4ea;
 }
@@ -1443,6 +1443,73 @@ ul.tabs-nav .tab-nav.active {
 }
 
 /*
+#Item Block
+--------------------------------*/
+.item-block { position: relative; width: 100%; text-align: center; color: #fff; }
+
+.item-block img { width: 100%; height: auto; display: block; }
+
+.item-block p { color: rgba(255, 255, 255, 0.6); padding: 0px 26% 35px; }
+
+.item-block h3 { padding-bottom: 15px; font-size: 2rem; font-weight: 700; transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; -ms-transition: all 0.3s ease-in; }
+
+.item-block h4 { padding-bottom: 15px; }
+
+.no-padd {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.item-block .buy-now {
+    margin-top: 20px;
+}
+.travel-primary-btn {
+    background: none;
+    display: inline-block;
+    padding: .25em 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    border-radius: 4rem;
+    border:2px solid #fff;
+    min-width: 12em;
+}
+.hvr-fade {
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition: all 0.3s ease 0s;
+    transition-property: color, background-color;
+    overflow: hidden;
+}
+.hvr-fade:hover {
+    background: rgb(91, 182, 67); color: #fff; text-decoration: none;}
+.vertical-center { -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); top: 50%; position: absolute; }
+
+.vertical-align { -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); top: 50%; position: absolute; width: 100%; left: 0px; }
+
+.vertical-align.p-148 { margin-top: 35px; }
+
+.vertical-bottom { position: absolute; bottom: 0px; left: 0px; width: 100%; }
+
+.vertical-top { position: absolute; left: 0px; top: 0px; width: 100%; }
+
+.delay-1 {
+    -webkit-transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1);
+    -moz-transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 800ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.tour-layer { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: rgba(0,0,0,.25); transition: all .15s ease-in; -webkit-transition: all .15s ease-in;-moz-transition: all .15s ease-in;-ms-transition: all .15s ease-in;}
+
+/*.tour-layer:hover { background: rgba(0,62,52,.45); z-index: 1000; }*/
+
+.item-block:hover .tour-layer { background: rgba(0,62,52,.45); }
+
+/*
 #Opening hours
 --------------------------------*/
 .sidebar .opening-hours,
@@ -1460,7 +1527,7 @@ ul.tabs-nav .tab-nav.active {
 # Contact Page
 --------------------------------------------------------------*/
 .contact-page-short-boxes {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .contact-info ul {
@@ -1471,14 +1538,15 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .contact-info ul li {
-    margin-top: 20px;
-    margin-bottom: 12px;
+    margin-top: 16px;
+    margin-bottom: 0px;
     font-weight: 500;
 }
 
 .contact-info ul li span {
     display: inline-block;
     color: #404040;
+    font-weight: bold;
 }
 
 .contact-info ul li span {
@@ -1500,11 +1568,11 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .contact-form {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .contact-form h2 {
-    margin-bottom: 24px;
+    margin-bottom: 0px;
     background: #fff;
     font-size: 24px;
     font-weight: 600;
