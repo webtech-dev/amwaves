@@ -245,7 +245,7 @@ a:hover, a:active {
 
 .hero-content-overlay h1 {
     margin: 0;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 1.2;
     color: #404040;
@@ -1036,15 +1036,15 @@ ul.tabs-nav .tab-nav.active {
 .the-news h2,
 .testimonial-section h2 {
     margin-bottom: 80px;
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 38px;
+    font-weight: bold;
     text-align: center;
     color: #404040;
 }
 .testimonial-section h2 span {
     margin-bottom: 80px;
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 38px;
+    font-weight: normal;
     text-align: center;
     color: #3d842b;
 }
@@ -1659,7 +1659,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .foot-contact ul li span {
-    width:64px;
+    width:84px;
 }
 
 .foot-links ul {
